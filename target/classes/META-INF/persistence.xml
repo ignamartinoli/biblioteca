@@ -6,9 +6,9 @@
     <persistence-unit name="bibliotecaPU" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <class>com.ejemplo.biblioteca.modelos.Autor</class>
-        <class>com.ejemplo.biblioteca.modelos.Genero</class>
-        <class>com.ejemplo.biblioteca.modelos.Libro</class>
+        <class>org.example.modelos.Autor</class>
+        <class>org.example.modelos.Genero</class>
+        <class>org.example.modelos.Libro</class>
 
         <properties>
             <!-- BD H2 en archivo (carpeta /data del proyecto) -->
