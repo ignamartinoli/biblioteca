@@ -1,4 +1,151 @@
-2025-10-02 04:25:14.702631Z jdbc[3]: exception
+2025-10-02 13:15:13.463178-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 13:17:26.685321-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.AUTOR ( [42001-224]
+2025-10-02 13:17:26.688103-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:17:26.689089-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:17:26.689905-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:17:26.690518-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:17:26.691311-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.GENERO ( [42001-224]
+2025-10-02 13:17:26.692100-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:17:26.692851-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:17:26.693633-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:17:26.694183-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:17:26.694755-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.LIBRO ( [42001-224]
+2025-10-02 13:17:26.695537-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:17:26.696075-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:17:26.696641-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:17:26.697164-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:17:26.697630-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID),"; SQL statement:
+PRIMARY KEY(ID), [42000-224]
+2025-10-02 13:17:26.698026-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]FOREIGN KEY(AUTOR_ID) REFERENCES backend.AUTOR(ID)"; SQL statement:
+FOREIGN KEY(AUTOR_ID) REFERENCES backend.AUTOR(ID) [42000-224]
+2025-10-02 13:17:26.698340-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:17:26.698746-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.LIBRO_GENERO ( [42001-224]
+2025-10-02 13:17:26.699103-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:17:26.699444-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:17:26.699780-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID)"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID) [42000-224]
+2025-10-02 13:17:26.700074-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:17:26.927427-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 13:19:37.143946-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.AUTOR ( [42001-224]
+2025-10-02 13:19:37.145467-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:19:37.146046-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:19:37.146549-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:19:37.146972-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:19:37.147577-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.GENERO ( [42001-224]
+2025-10-02 13:19:37.148180-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:19:37.148831-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:19:37.149412-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:19:37.149991-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:19:37.150532-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.LIBRO ( [42001-224]
+2025-10-02 13:19:37.151075-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:19:37.151546-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:19:37.152042-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:19:37.152589-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:19:37.153082-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID),"; SQL statement:
+PRIMARY KEY(ID), [42000-224]
+2025-10-02 13:19:37.153569-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]FOREIGN KEY(AUTOR_ID) REFERENCES backend.AUTOR(ID)"; SQL statement:
+FOREIGN KEY(AUTOR_ID) REFERENCES backend.AUTOR(ID) [42000-224]
+2025-10-02 13:19:37.153991-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:19:37.154459-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE backend.LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE backend.LIBRO_GENERO ( [42001-224]
+2025-10-02 13:19:37.154945-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:19:37.155421-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:19:37.155769-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID)"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID) [42000-224]
+2025-10-02 13:19:37.156087-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:19:37.342966-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from backend.autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 16:19:59.311073Z jdbc[3]: exception
 java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
 	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
 	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
@@ -17,7 +164,235 @@ java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supporte
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025-10-02 04:25:16.082590Z jdbc[3]: exception
+2025-10-02 13:22:51.792340-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS AUTOR ( [42001-224]
+2025-10-02 13:22:51.795181-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:22:51.796232-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:22:51.797302-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:22:51.798070-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:22:51.799022-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS GENERO ( [42001-224]
+2025-10-02 13:22:51.800128-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:22:51.801541-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:22:51.802779-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:22:51.803476-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:22:51.804205-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO ( [42001-224]
+2025-10-02 13:22:51.805098-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:22:51.806193-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:22:51.807176-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:22:51.808786-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:22:51.809244-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID),"; SQL statement:
+PRIMARY KEY (ID), [42000-224]
+2025-10-02 13:22:51.809606-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID)"; SQL statement:
+CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID) [42000-224]
+2025-10-02 13:22:51.809886-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:22:51.810203-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO_GENERO ( [42001-224]
+2025-10-02 13:22:51.810544-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:22:51.810847-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:22:51.811152-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID),"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID), [42000-224]
+2025-10-02 13:22:51.811450-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID),"; SQL statement:
+CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID), [42000-224]
+2025-10-02 13:22:51.811746-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID)"; SQL statement:
+CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID) [42000-224]
+2025-10-02 13:22:51.812021-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:22:52.017299-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from backend.autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 13:23:49.036443-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE AUTOR ( [42001-224]
+2025-10-02 13:23:49.038574-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:23:49.039099-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:23:49.039597-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:23:49.040023-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:23:49.040638-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE GENERO ( [42001-224]
+2025-10-02 13:23:49.041483-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:23:49.042188-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:23:49.042718-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID)"; SQL statement:
+PRIMARY KEY(ID) [42000-224]
+2025-10-02 13:23:49.043196-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:23:49.043742-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE LIBRO ( [42001-224]
+2025-10-02 13:23:49.044326-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT AUTO_INCREMENT NOT NULL,"; expected "INSERT"; SQL statement:
+ID BIGINT AUTO_INCREMENT NOT NULL, [42001-224]
+2025-10-02 13:23:49.044780-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:23:49.045269-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:23:49.045903-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:23:49.046376-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY(ID),"; SQL statement:
+PRIMARY KEY(ID), [42000-224]
+2025-10-02 13:23:49.046781-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]FOREIGN KEY(AUTOR_ID) REFERENCES AUTOR(ID)"; SQL statement:
+FOREIGN KEY(AUTOR_ID) REFERENCES AUTOR(ID) [42000-224]
+2025-10-02 13:23:49.047096-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:23:49.047456-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE LIBRO_GENERO ( [42001-224]
+2025-10-02 13:23:49.047804-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:23:49.048154-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:23:49.048485-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID)"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID) [42000-224]
+2025-10-02 13:23:49.048812-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:23:49.272730-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 13:27:01.444928-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS AUTOR ( [42001-224]
+2025-10-02 13:27:01.446839-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:01.447386-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:27:01.447887-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:27:01.448292-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:01.448751-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS GENERO ( [42001-224]
+2025-10-02 13:27:01.449241-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:01.449878-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:27:01.450286-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:27:01.450677-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:01.451120-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO ( [42001-224]
+2025-10-02 13:27:01.451554-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:01.451941-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:27:01.452437-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:27:01.452949-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:27:01.453303-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID),"; SQL statement:
+PRIMARY KEY (ID), [42000-224]
+2025-10-02 13:27:01.453635-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID)"; SQL statement:
+CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID) [42000-224]
+2025-10-02 13:27:01.453920-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:01.454222-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO_GENERO ( [42001-224]
+2025-10-02 13:27:01.454525-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:27:01.454823-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:27:01.455113-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID),"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID), [42000-224]
+2025-10-02 13:27:01.455416-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID),"; SQL statement:
+CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID), [42000-224]
+2025-10-02 13:27:01.455706-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID)"; SQL statement:
+CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID) [42000-224]
+2025-10-02 13:27:01.456009-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:01.683388-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTOR" not found (this database is empty); SQL statement:
+select a1_0.id,a1_0.nombre from autor a1_0 where a1_0.nombre=? [42104-224]
+2025-10-02 16:27:11.798397Z jdbc[3]: exception
 java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
 	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
 	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
@@ -36,3 +411,148 @@ java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supporte
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-02 13:27:58.755321-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS AUTOR ( [42001-224]
+2025-10-02 13:27:58.758302-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:58.758921-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(200) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(200) NOT NULL, [42000-224]
+2025-10-02 13:27:58.759446-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:27:58.759910-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:58.760403-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS GENERO ( [42001-224]
+2025-10-02 13:27:58.760944-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:58.761852-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NOMBRE VARCHAR(100) NOT NULL,"; SQL statement:
+NOMBRE VARCHAR(100) NOT NULL, [42000-224]
+2025-10-02 13:27:58.762355-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID)"; SQL statement:
+PRIMARY KEY (ID) [42000-224]
+2025-10-02 13:27:58.762804-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:58.763266-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO ( [42001-224]
+2025-10-02 13:27:58.763823-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID BIGINT GENERATED BY DEFAULT AS IDENTITY,"; expected "INSERT"; SQL statement:
+ID BIGINT GENERATED BY DEFAULT AS IDENTITY, [42001-224]
+2025-10-02 13:27:58.764255-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TITULO VARCHAR(300) NOT NULL,"; expected "TRUNCATE"; SQL statement:
+TITULO VARCHAR(300) NOT NULL, [42001-224]
+2025-10-02 13:27:58.764783-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]AUTOR_ID BIGINT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+AUTOR_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:27:58.765427-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ESTADO VARCHAR(255) NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+ESTADO VARCHAR(255) NOT NULL, [42001-224]
+2025-10-02 13:27:58.765910-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]PRIMARY KEY (ID),"; SQL statement:
+PRIMARY KEY (ID), [42000-224]
+2025-10-02 13:27:58.766305-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID)"; SQL statement:
+CONSTRAINT FK_LIBRO_AUTOR FOREIGN KEY (AUTOR_ID) REFERENCES AUTOR(ID) [42000-224]
+2025-10-02 13:27:58.766618-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:58.766953-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS LIBRO_GENERO ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS LIBRO_GENERO ( [42001-224]
+2025-10-02 13:27:58.767313-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIBRO_ID BIGINT NOT NULL,"; SQL statement:
+LIBRO_ID BIGINT NOT NULL, [42000-224]
+2025-10-02 13:27:58.767689-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]GENERO_ID BIGINT NOT NULL,"; expected "GRANT"; SQL statement:
+GENERO_ID BIGINT NOT NULL, [42001-224]
+2025-10-02 13:27:58.767986-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID),"; SQL statement:
+CONSTRAINT PK_LIBRO_GENERO PRIMARY KEY (LIBRO_ID, GENERO_ID), [42000-224]
+2025-10-02 13:27:58.768302-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID),"; SQL statement:
+CONSTRAINT FK_LG_LIBRO  FOREIGN KEY (LIBRO_ID)  REFERENCES LIBRO(ID), [42000-224]
+2025-10-02 13:27:58.768604-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID)"; SQL statement:
+CONSTRAINT FK_LG_GENERO FOREIGN KEY (GENERO_ID) REFERENCES GENERO(ID) [42000-224]
+2025-10-02 13:27:58.768887-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*])"; SQL statement:
+) [42000-224]
+2025-10-02 13:27:59.084061-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ID" not found; SQL statement:
+insert into libro_genero (genero_id,libro_id,id) values (?,?,default) [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1094)
+	at org.hibernate.engine.jdbc.internal.MutationStatementPreparerImpl$2.doPrepare(MutationStatementPreparerImpl.java:61)
+	at org.hibernate.engine.jdbc.internal.MutationStatementPreparerImpl$StatementPreparationTemplate.prepareStatement(MutationStatementPreparerImpl.java:106)
+	at org.hibernate.engine.jdbc.internal.MutationStatementPreparerImpl.prepareStatement(MutationStatementPreparerImpl.java:63)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.prepareStatement(GetGeneratedKeysDelegate.java:86)
+	at org.hibernate.engine.jdbc.mutation.internal.ModelMutationHelper.lambda$identityPreparation$1(ModelMutationHelper.java:132)
+	at org.hibernate.engine.jdbc.mutation.internal.PreparedStatementDetailsStandard.resolveStatement(PreparedStatementDetailsStandard.java:87)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:104)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.persistOnFlush(SessionImpl.java:818)
+	at org.hibernate.engine.spi.CascadingActions$8.cascade(CascadingActions.java:333)
+	at org.hibernate.engine.spi.CascadingActions$8.cascade(CascadingActions.java:323)
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224)
+	at org.hibernate.engine.internal.Cascade.cascadeCollectionElements(Cascade.java:551)
+	at org.hibernate.engine.internal.Cascade.cascadeCollection(Cascade.java:481)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:442)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.cascadeOnFlush(AbstractFlushingEventListener.java:161)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.prepareEntityFlushes(AbstractFlushingEventListener.java:144)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:79)
+	at org.hibernate.event.internal.DefaultAutoFlushEventListener.onAutoFlush(DefaultAutoFlushEventListener.java:52)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.autoFlushIfRequired(SessionImpl.java:1366)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(ConcreteSqmSelectQueryPlan.java:136)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:362)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:303)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:509)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:427)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:564)
+	at org.example.repositorios.GeneroRepository.findByNombre(GeneroRepository.java:17)
+	at org.example.repositorios.GeneroRepository.getOrCreate(GeneroRepository.java:22)
+	at org.example.Main.main(Main.java:50)
