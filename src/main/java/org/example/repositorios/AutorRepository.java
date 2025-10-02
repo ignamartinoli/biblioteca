@@ -18,7 +18,6 @@ public class AutorRepository {
         catch (NoResultException e) { return null; }
     }
 
-    /** Devuelve el existente o crea uno nuevo si no hay */
     public Autor getOrCreate(String nombre) {
         Autor existente = findByNombre(nombre);
         if (existente != null) return existente;

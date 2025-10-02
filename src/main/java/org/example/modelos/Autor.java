@@ -4,10 +4,9 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "autor", uniqueConstraints = {
-        @UniqueConstraint(name = "uk_autor_nombre", columnNames = {"nombre"})
+        @UniqueConstraint(name = "uk_autor_nombre", columnNames = { "nombre" })
 })
 public class Autor {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -15,7 +14,7 @@ public class Autor {
     @Column(name = "nombre", nullable = false, unique = true, length = 200)
     private String nombre;
 
-    protected Autor() {} // JPA
+    protected Autor() {}
 
     public Autor(String nombre) {
         this.nombre = nombre;

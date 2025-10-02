@@ -1,4 +1,200 @@
-title,author,genres
-Ficciones,Jorge Luis Borges,Ficción;Fantasía
-Rayuela,Julio Cortázar,Ficción
-Ficciones,Jorge Luis Borges,Ficción;Fantasía
+title,author,genres,status
+Ficciones,Jorge Luis Borges,Ficción;Fantasía,Disponible
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Comprado
+El libro de arena,Jorge Luis Borges,Ficción;Fantasía,Roto
+Otras inquisiciones,Jorge Luis Borges,Ensayo,Prestado
+Rayuela,Julio Cortázar,Ficción,Comprado
+Bestiario,Julio Cortázar,Cuento;Ficción,Roto
+Final del juego,Julio Cortázar,Cuento,Disponible
+Las armas secretas,Julio Cortázar,Cuento,Prestado
+Cien años de soledad,Gabriel García Márquez,Realismo mágico,Disponible
+El coronel no tiene quien le escriba,Gabriel García Márquez,Ficción,Comprado
+Crónica de una muerte anunciada,Gabriel García Márquez,Ficción,Comprado
+El otoño del patriarca,Gabriel García Márquez,Ficción;Política,Prestado
+Amor en los tiempos del cólera,Gabriel García Márquez,Ficción,Disponible
+La ciudad y los perros,Mario Vargas Llosa,Ficción,Comprado
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Roto
+Conversación en La Catedral,Mario Vargas Llosa,Ficción,Comprado
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Roto
+La casa de los espíritus,Isabel Allende,Realismo mágico,Prestado
+De amor y de sombra,Isabel Allende,Ficción,Comprado
+Eva Luna,Isabel Allende,Ficción,Comprado
+Paula,Isabel Allende,Memorias,Prestado
+Aura,Carlos Fuentes,Ficción,Comprado
+La muerte de Artemio Cruz,Carlos Fuentes,Ficción,Disponible
+Terra Nostra,Carlos Fuentes,Ficción histórica,Comprado
+La región más transparente,Carlos Fuentes,Ficción,Roto
+Pedro Páramo,Juan Rulfo,Ficción,Comprado
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Roto
+Los detectives salvajes,Roberto Bolaño,Ficción,Disponible
+2666,Roberto Bolaño,Ficción,Disponible
+Estrella distante,Roberto Bolaño,Ficción,Roto
+Nocturno de Chile,Roberto Bolaño,Ficción,Roto
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Prestado
+Tan veloz como el deseo,Laura Esquivel,Ficción,Prestado
+Malinche,Laura Esquivel,Ficción histórica,Disponible
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Disponible
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Roto
+El libro de los abrazos,Eduardo Galeano,Ensayo;Ficción poética,Roto
+Don Quijote de la Mancha,Miguel de Cervantes,Ficción,Prestado
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Comprado
+La Galatea,Miguel de Cervantes,Poesía;Ficción,Disponible
+Las armas secretas,Julio Cortázar,Cuento,Disponible
+Tan veloz como el deseo,Laura Esquivel,Ficción,Prestado
+Pedro Páramo,Juan Rulfo,Ficción,Roto
+El coronel no tiene quien le escriba,Gabriel García Márquez,Ficción,Prestado
+Aura,Carlos Fuentes,Ficción,Roto
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Prestado
+El libro de los abrazos,Eduardo Galeano,Ensayo;Ficción poética,Disponible
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Prestado
+Malinche,Laura Esquivel,Ficción histórica,Comprado
+Las armas secretas,Julio Cortázar,Cuento,Comprado
+El otoño del patriarca,Gabriel García Márquez,Ficción;Política,Roto
+Pedro Páramo,Juan Rulfo,Ficción,Disponible
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Comprado
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Disponible
+Amor en los tiempos del cólera,Gabriel García Márquez,Ficción,Comprado
+De amor y de sombra,Isabel Allende,Ficción,Comprado
+Rayuela,Julio Cortázar,Ficción,Comprado
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Prestado
+De amor y de sombra,Isabel Allende,Ficción,Comprado
+Pedro Páramo,Juan Rulfo,Ficción,Disponible
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Roto
+Pedro Páramo,Juan Rulfo,Ficción,Comprado
+Nocturno de Chile,Roberto Bolaño,Ficción,Prestado
+La casa de los espíritus,Isabel Allende,Realismo mágico,Prestado
+Los detectives salvajes,Roberto Bolaño,Ficción,Comprado
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Disponible
+Crónica de una muerte anunciada,Gabriel García Márquez,Ficción,Disponible
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Roto
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Prestado
+Terra Nostra,Carlos Fuentes,Ficción histórica,Disponible
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Prestado
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Disponible
+Tan veloz como el deseo,Laura Esquivel,Ficción,Prestado
+Nocturno de Chile,Roberto Bolaño,Ficción,Roto
+Paula,Isabel Allende,Memorias,Disponible
+Don Quijote de la Mancha,Miguel de Cervantes,Ficción,Comprado
+La casa de los espíritus,Isabel Allende,Realismo mágico,Prestado
+Rayuela,Julio Cortázar,Ficción,Disponible
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Roto
+La casa de los espíritus,Isabel Allende,Realismo mágico,Roto
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Comprado
+Otras inquisiciones,Jorge Luis Borges,Ensayo,Roto
+Conversación en La Catedral,Mario Vargas Llosa,Ficción,Roto
+Conversación en La Catedral,Mario Vargas Llosa,Ficción,Prestado
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Prestado
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Roto
+Las armas secretas,Julio Cortázar,Cuento,Comprado
+Aura,Carlos Fuentes,Ficción,Roto
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Disponible
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Disponible
+La muerte de Artemio Cruz,Carlos Fuentes,Ficción,Roto
+Aura,Carlos Fuentes,Ficción,Disponible
+Bestiario,Julio Cortázar,Cuento;Ficción,Roto
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Prestado
+Estrella distante,Roberto Bolaño,Ficción,Disponible
+El coronel no tiene quien le escriba,Gabriel García Márquez,Ficción,Disponible
+Estrella distante,Roberto Bolaño,Ficción,Roto
+Malinche,Laura Esquivel,Ficción histórica,Prestado
+Tan veloz como el deseo,Laura Esquivel,Ficción,Disponible
+Tan veloz como el deseo,Laura Esquivel,Ficción,Prestado
+Terra Nostra,Carlos Fuentes,Ficción histórica,Comprado
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Roto
+Rayuela,Julio Cortázar,Ficción,Prestado
+Ficciones,Jorge Luis Borges,Ficción;Fantasía,Prestado
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Roto
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Comprado
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Disponible
+Paula,Isabel Allende,Memorias,Prestado
+Eva Luna,Isabel Allende,Ficción,Comprado
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Roto
+La Galatea,Miguel de Cervantes,Poesía;Ficción,Roto
+Amor en los tiempos del cólera,Gabriel García Márquez,Ficción,Prestado
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Prestado
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Prestado
+La región más transparente,Carlos Fuentes,Ficción,Comprado
+Terra Nostra,Carlos Fuentes,Ficción histórica,Prestado
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Roto
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Disponible
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Comprado
+Don Quijote de la Mancha,Miguel de Cervantes,Ficción,Prestado
+La muerte de Artemio Cruz,Carlos Fuentes,Ficción,Disponible
+Paula,Isabel Allende,Memorias,Prestado
+Nocturno de Chile,Roberto Bolaño,Ficción,Roto
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Prestado
+Crónica de una muerte anunciada,Gabriel García Márquez,Ficción,Comprado
+El otoño del patriarca,Gabriel García Márquez,Ficción;Política,Comprado
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Comprado
+Las armas secretas,Julio Cortázar,Cuento,Roto
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Comprado
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Comprado
+Tan veloz como el deseo,Laura Esquivel,Ficción,Disponible
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Comprado
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Comprado
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Prestado
+2666,Roberto Bolaño,Ficción,Prestado
+Otras inquisiciones,Jorge Luis Borges,Ensayo,Comprado
+El libro de los abrazos,Eduardo Galeano,Ensayo;Ficción poética,Disponible
+Don Quijote de la Mancha,Miguel de Cervantes,Ficción,Prestado
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Roto
+Aura,Carlos Fuentes,Ficción,Roto
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Roto
+Amor en los tiempos del cólera,Gabriel García Márquez,Ficción,Comprado
+Tan veloz como el deseo,Laura Esquivel,Ficción,Disponible
+La ciudad y los perros,Mario Vargas Llosa,Ficción,Comprado
+Rayuela,Julio Cortázar,Ficción,Prestado
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Disponible
+Tan veloz como el deseo,Laura Esquivel,Ficción,Prestado
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Prestado
+Terra Nostra,Carlos Fuentes,Ficción histórica,Comprado
+Pantaleón y las visitadoras,Mario Vargas Llosa,Ficción;Sátira,Disponible
+Pedro Páramo,Juan Rulfo,Ficción,Prestado
+Malinche,Laura Esquivel,Ficción histórica,Prestado
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Prestado
+Memoria del fuego I,Eduardo Galeano,Historia;Ficción,Roto
+Rayuela,Julio Cortázar,Ficción,Comprado
+La muerte de Artemio Cruz,Carlos Fuentes,Ficción,Roto
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Comprado
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Disponible
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Comprado
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Prestado
+Malinche,Laura Esquivel,Ficción histórica,Comprado
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Disponible
+Malinche,Laura Esquivel,Ficción histórica,Comprado
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Disponible
+Tan veloz como el deseo,Laura Esquivel,Ficción,Comprado
+Malinche,Laura Esquivel,Ficción histórica,Prestado
+Bestiario,Julio Cortázar,Cuento;Ficción,Disponible
+Las venas abiertas de América Latina,Eduardo Galeano,Política;Ensayo,Comprado
+Bestiario,Julio Cortázar,Cuento;Ficción,Comprado
+Malinche,Laura Esquivel,Ficción histórica,Roto
+Terra Nostra,Carlos Fuentes,Ficción histórica,Prestado
+Paula,Isabel Allende,Memorias,Disponible
+La Galatea,Miguel de Cervantes,Poesía;Ficción,Comprado
+El libro de arena,Jorge Luis Borges,Ficción;Fantasía,Disponible
+El coronel no tiene quien le escriba,Gabriel García Márquez,Ficción,Disponible
+Crónica de una muerte anunciada,Gabriel García Márquez,Ficción,Prestado
+Estrella distante,Roberto Bolaño,Ficción,Roto
+La muerte de Artemio Cruz,Carlos Fuentes,Ficción,Roto
+La casa de los espíritus,Isabel Allende,Realismo mágico,Roto
+Paula,Isabel Allende,Memorias,Roto
+Estrella distante,Roberto Bolaño,Ficción,Roto
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Roto
+La ciudad y los perros,Mario Vargas Llosa,Ficción,Disponible
+Las armas secretas,Julio Cortázar,Cuento,Prestado
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Disponible
+El libro de los abrazos,Eduardo Galeano,Ensayo;Ficción poética,Prestado
+El libro de los abrazos,Eduardo Galeano,Ensayo;Ficción poética,Prestado
+Las armas secretas,Julio Cortázar,Cuento,Disponible
+Terra Nostra,Carlos Fuentes,Ficción histórica,Roto
+El Llano en llamas,Juan Rulfo,Cuento;Ficción,Roto
+Otras inquisiciones,Jorge Luis Borges,Ensayo,Roto
+Novelas ejemplares,Miguel de Cervantes,Ficción;Cuento,Disponible
+El Aleph,Jorge Luis Borges,Ficción;Fantasía,Roto
+Aura,Carlos Fuentes,Ficción,Prestado
+Como agua para chocolate,Laura Esquivel,Ficción;Romance,Disponible
+Conversación en La Catedral,Mario Vargas Llosa,Ficción,Prestado
+Aura,Carlos Fuentes,Ficción,Roto
+La fiesta del chivo,Mario Vargas Llosa,Ficción;Política,Disponible
+Las armas secretas,Julio Cortázar,Cuento,Comprado
